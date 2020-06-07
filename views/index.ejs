@@ -1,0 +1,30 @@
+	<head>
+		<title>Log In</title>
+		<link rel="stylesheet" href = "main.css">
+	</head>
+	<body>
+		<h1>User Sign Up</h1>	
+		<form action="/newUser" method="post">
+			<div class="input">				
+				<label for="Username">Username*:</label>
+				<input type="text" id="username" name="username"><br><br>
+			</div>
+			<div class="input">
+				<label for="Password">Password*:</label>
+				<input type="text" id="password" name="password"><br><br>
+			</div>
+			<div class="input">
+				<label for="Re-enter Password">Re-enter Password*:</label>
+				<input type="text" id="re-password" name="repassword"><br><br>
+			</div>
+			<!-- <div class="input">
+				<label for="Orginization Code">Orginization Code:</label>
+				<input type="text" id="orginizationCode" name="orginizationCode"><br><br>
+			</div> -->
+			<button type="submit">INSERT</button>
+		</form>
+
+		<a href="/login">
+			Already have an account? Log in here.
+		</a>
+	</body>
