@@ -22,17 +22,24 @@
 	submissions, group organizations. To use the features of this webpage,
 	you need to sign into an organization.   
 	</p>
-	
-	<form action="/orginization" method="post"> 
-	<button id = "button1" type="submit" >Create Organization</button>
-	</form>
-	
-	<form action="/orginization" method="post"> 
-	<button id = "button3" type="submit" > Personal Profile</button>
-	</form>
-	
 
-	<script src = "home.js">
+	<div>
+		<button id="button1" onclick="redirectPersonalProfile()"> Personal Profile  </button>
+		<button id="button3" onclick="redirectCreateOrganization()">New Organization</button>
+	</div>
+
+	<script>
+		function redirectCreateOrganization()
+		{
+			window.location.href = "/neworginization";
+		}
+		function redirectPersonalProfile()
+		{
+			window.location.href = "/personalprofilescript";
+		}
+
 	</script>
 </body>
 </html>
+
+
