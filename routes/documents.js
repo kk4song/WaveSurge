@@ -13,9 +13,9 @@ const GridFsStorage = require('multer-gridfs-storage');
 const Grid = require('gridfs-stream');
 const methodOverride = require('method-override');
 
-const url = 'mongodb://localhost:27017/test';
+//const url = 'mongodb://localhost:27017/test';
 
-const conn = mongoose.createConnection(url);
+//const conn = mongoose.createConnection(url);
 
 // Init gfs
 let gfs;
